@@ -9,4 +9,4 @@ if(MSVC)
 	target_compile_options(glad PRIVATE /Od)
 endif()
 
-install(TARGETS glad EXPORT gl00Targets)
+install(TARGETS glad EXPORT gladTargets)
